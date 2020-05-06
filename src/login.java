@@ -1,5 +1,3 @@
-import org.junit.BeforeClass;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -8,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 public class login {
     static WebDriver Driver;
 
-    @BeforeClass
     public static void beforeClass() {
         //设置驱动所在位置
         System.setProperty("webdriver.firefox.driver", "C:\\Program Files\\Mozilla Firefox\\Firefox.exe");
@@ -20,9 +17,8 @@ public class login {
         System.out.println("用例开始执行…………\n");
         Driver.manage().window().maximize();
     }
-
-    @Test//后台登录
-    public  void admin_login() {
+    
+    public static void admin_login() {
         Driver.get("http://admin.xinanyuncai.com/login");
         try {
             Thread.sleep(2000);
@@ -34,7 +30,8 @@ public class login {
     }
 
     public static void main(String[] args) {
-        System.out.println("测试成功");
+        login.beforeClass();
+        login.admin_login();
     }
 
 
