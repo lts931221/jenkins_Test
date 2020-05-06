@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="selenium-server-3.141.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/out/artifacts/yuncai_desktop_jar/selenium-server-3.141.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/out/artifacts/yuncai_desktop_jar/selenium-server-standalone-3.141.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
