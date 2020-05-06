@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="jenkins_Test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jenkins_Test_jar</output-path>
+    <root id="root">
+      <element id="archive" name="jenkins_Test.jar">
+        <element id="module-output" name="jenkins_Test" />
+      </element>
+      <element id="library" level="project" name="selenium-server-3.141.0" />
+      <element id="library" level="module" name="JUnit4" module-name="jenkins_Test" />
+    </root>
+  </artifact>
+</component>
