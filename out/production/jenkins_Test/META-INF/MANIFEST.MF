@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: selenium-server-3.141.0.jar selenium-server-standalone-3.141
+ .0.jar junit-4.12.jar hamcrest-core-1.3.jar
+
